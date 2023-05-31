@@ -4,6 +4,14 @@
 
 std::string chatWithGpt3(std::string message, std::string model = "gpt-3.5-turbo")
 {
+    char *openaiKey = std::getenv("OPENAI_KEY");
+    if (openaiKey == nullptr)
+    {
+        std::cerr << "Error: OPENAI_KEY no está configurado." << std::endl;
+        exit(1);
+    }
+    std::string apiKey = "Bearer " + std::string(openaiKey);
+
     nlohmann::json requestBody = {
         {"model", model},
         {"messages", nlohmann::json::array({{{"role", "user"}, {"content", message}}})},
@@ -11,7 +19,7 @@ std::string chatWithGpt3(std::string message, std::string model = "gpt-3.5-turbo
 
     cpr::Response response = cpr::Post(
         cpr::Url{"https://api.openai.com/v1/chat/completions"},
-        cpr::Header{{"Authorization", "Bearer " + std::getenv("OPENAI_KEY")}, {"Content-Type", "application/json"}},
+        cpr::Header{{"Authorization", apiKey}, {"Content-Type", "application/json"}},
         cpr::Body{requestBody.dump()});
 
     auto responseBody = nlohmann::json::parse(response.text);
