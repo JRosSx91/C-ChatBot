@@ -1,0 +1,39 @@
+# CMake generation dependency list for this directory.
+C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeCXXInformation.cmake
+C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake
+C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeCommonLanguageInclude.cmake
+C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeGenericSystem.cmake
+C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeInitializeConfigs.cmake
+C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeLanguageInformation.cmake
+C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeRCInformation.cmake
+C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeSystemSpecificInformation.cmake
+C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeSystemSpecificInitialize.cmake
+C:/Program Files/CMake/share/cmake-3.26/Modules/CheckCXXCompilerFlag.cmake
+C:/Program Files/CMake/share/cmake-3.26/Modules/CheckCXXSourceCompiles.cmake
+C:/Program Files/CMake/share/cmake-3.26/Modules/CheckCXXSourceRuns.cmake
+C:/Program Files/CMake/share/cmake-3.26/Modules/Compiler/CMakeCommonCompilerMacros.cmake
+C:/Program Files/CMake/share/cmake-3.26/Modules/Compiler/MSVC-CXX.cmake
+C:/Program Files/CMake/share/cmake-3.26/Modules/Compiler/MSVC.cmake
+C:/Program Files/CMake/share/cmake-3.26/Modules/FetchContent.cmake
+C:/Program Files/CMake/share/cmake-3.26/Modules/FetchContent/CMakeLists.cmake.in
+C:/Program Files/CMake/share/cmake-3.26/Modules/FindGit.cmake
+C:/Program Files/CMake/share/cmake-3.26/Modules/FindPackageHandleStandardArgs.cmake
+C:/Program Files/CMake/share/cmake-3.26/Modules/FindPackageMessage.cmake
+C:/Program Files/CMake/share/cmake-3.26/Modules/GNUInstallDirs.cmake
+C:/Program Files/CMake/share/cmake-3.26/Modules/Internal/CheckCompilerFlag.cmake
+C:/Program Files/CMake/share/cmake-3.26/Modules/Internal/CheckFlagCommonConfig.cmake
+C:/Program Files/CMake/share/cmake-3.26/Modules/Internal/CheckSourceCompiles.cmake
+C:/Program Files/CMake/share/cmake-3.26/Modules/Internal/CheckSourceRuns.cmake
+C:/Program Files/CMake/share/cmake-3.26/Modules/Platform/Windows-MSVC-CXX.cmake
+C:/Program Files/CMake/share/cmake-3.26/Modules/Platform/Windows-MSVC.cmake
+C:/Program Files/CMake/share/cmake-3.26/Modules/Platform/Windows.cmake
+C:/Program Files/CMake/share/cmake-3.26/Modules/Platform/WindowsPaths.cmake
+C:/Users/Ivan/labs/c++/C-ChatBot/build/CMakeFiles/3.26.4/CMakeCXXCompiler.cmake
+C:/Users/Ivan/labs/c++/C-ChatBot/build/CMakeFiles/3.26.4/CMakeRCCompiler.cmake
+C:/Users/Ivan/labs/c++/C-ChatBot/build/CMakeFiles/3.26.4/CMakeSystem.cmake
+C:/Users/Ivan/labs/c++/C-ChatBot/vcpkg/buildtrees/cpr/src/d1431a4f30-ceb945674d.clean/CMakeLists.txt
+C:/Users/Ivan/labs/c++/C-ChatBot/vcpkg/buildtrees/cpr/src/d1431a4f30-ceb945674d.clean/cmake/clear_variable.cmake
+C:/Users/Ivan/labs/c++/C-ChatBot/vcpkg/buildtrees/cpr/src/d1431a4f30-ceb945674d.clean/cmake/code_coverage.cmake
+C:/Users/Ivan/labs/c++/C-ChatBot/vcpkg/buildtrees/cpr/src/d1431a4f30-ceb945674d.clean/cmake/cprver.h.in
+C:/Users/Ivan/labs/c++/C-ChatBot/vcpkg/buildtrees/cpr/src/d1431a4f30-ceb945674d.clean/cmake/sanitizer.cmake
+C:/Users/Ivan/labs/c++/C-ChatBot/vcpkg/buildtrees/cpr/src/d1431a4f30-ceb945674d.clean/cmake/zlib_external.cmake

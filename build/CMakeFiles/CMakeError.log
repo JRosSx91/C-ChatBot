@@ -1,0 +1,489 @@
+Performing Curl Test HAVE_FCNTL_O_NONBLOCK failed with the following output:
+Change Dir: C:/Users/Ivan/labs/c++/C-ChatBot/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/MSBuild/Current/Bin/MSBuild.exe cmTC_21786.vcxproj /p:Configuration=Debug /p:Platform=win32 /p:VisualStudioVersion=16.0 /v:n && Microsoft (R) Build Engine versión 16.11.2+f32259642 para .NET Framework
+Copyright (C) Microsoft Corporation. Todos los derechos reservados.
+
+Compilación iniciada a las 31/05/2023 16:51:29.
+Proyecto "C:\Users\Ivan\labs\c++\C-ChatBot\build\CMakeFiles\CMakeTmp\cmTC_21786.vcxproj" en nodo 1 (destinos predeterminados).
+PrepareForBuild:
+  Creando directorio "cmTC_21786.dir\Debug\".
+  Creando directorio "C:\Users\Ivan\labs\c++\C-ChatBot\build\CMakeFiles\CMakeTmp\Debug\".
+  Creando directorio "cmTC_21786.dir\Debug\cmTC_21786.tlog\".
+InitializeBuildStatus:
+  Se creará "cmTC_21786.dir\Debug\cmTC_21786.tlog\unsuccessfulbuild" porque se especificó "AlwaysCreate".
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\VC\Tools\MSVC\14.29.30133\bin\HostX86\x86\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D HAVE_FCNTL_O_NONBLOCK /D HAVE_WINDOWS_H /D HAVE_WS2TCPIP_H /D HAVE_WINSOCK2_H /D HAVE_WINCRYPT_H /D HAVE_STDIO_H /D HAVE_SYS_STAT_H /D HAVE_SYS_TYPES_H /D HAVE_SYS_UTIME_H /D HAVE_ASSERT_H /D HAVE_ERRNO_H /D HAVE_FCNTL_H /D HAVE_IO_H /D HAVE_LOCALE_H /D HAVE_SETJMP_H /D HAVE_SIGNAL_H /D HAVE_STDBOOL_H /D HAVE_STDLIB_H /D HAVE_STRING_H /D HAVE_TIME_H /D HAVE_PROCESS_H /D HAVE_STDDEF_H /D HAVE_MALLOC_H /D HAVE_MEMORY_H /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_21786.dir\Debug\\" /Fd"cmTC_21786.dir\Debug\vc142.pdb" /external:W1 /Gd /TC /analyze- /errorReport:queue "C:\Users\Ivan\labs\c++\C-ChatBot\build\_deps\curl-src\CMake\CurlTests.c"
+  Compilador de optimización de C/C++ de Microsoft (R) versión 19.29.30148 para x86
+  (C) Microsoft Corporation. Todos los derechos reservados.
+  CurlTests.c
+  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D HAVE_FCNTL_O_NONBLOCK /D HAVE_WINDOWS_H /D HAVE_WS2TCPIP_H /D HAVE_WINSOCK2_H /D HAVE_WINCRYPT_H /D HAVE_STDIO_H /D HAVE_SYS_STAT_H /D HAVE_SYS_TYPES_H /D HAVE_SYS_UTIME_H /D HAVE_ASSERT_H /D HAVE_ERRNO_H /D HAVE_FCNTL_H /D HAVE_IO_H /D HAVE_LOCALE_H /D HAVE_SETJMP_H /D HAVE_SIGNAL_H /D HAVE_STDBOOL_H /D HAVE_STDLIB_H /D HAVE_STRING_H /D HAVE_TIME_H /D HAVE_PROCESS_H /D HAVE_STDDEF_H /D HAVE_MALLOC_H /D HAVE_MEMORY_H /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_21786.dir\Debug\\" /Fd"cmTC_21786.dir\Debug\vc142.pdb" /external:W1 /Gd /TC /analyze- /errorReport:queue "C:\Users\Ivan\labs\c++\C-ChatBot\build\_deps\curl-src\CMake\CurlTests.c"
+C:\Users\Ivan\labs\c++\C-ChatBot\build\_deps\curl-src\CMake\CurlTests.c(44,10): fatal error C1083: No se puede abrir el archivo incluir: 'unistd.h': No such file or directory [C:\Users\Ivan\labs\c++\C-ChatBot\build\CMakeFiles\CMakeTmp\cmTC_21786.vcxproj]
+Compilación del proyecto terminada "C:\Users\Ivan\labs\c++\C-ChatBot\build\CMakeFiles\CMakeTmp\cmTC_21786.vcxproj" (destinos predeterminados) -- ERROR.
+
+ERROR al compilar.
+
+"C:\Users\Ivan\labs\c++\C-ChatBot\build\CMakeFiles\CMakeTmp\cmTC_21786.vcxproj" (destino predeterminado) (1) ->
+(ClCompile destino) -> 
+  C:\Users\Ivan\labs\c++\C-ChatBot\build\_deps\curl-src\CMake\CurlTests.c(44,10): fatal error C1083: No se puede abrir el archivo incluir: 'unistd.h': No such file or directory [C:\Users\Ivan\labs\c++\C-ChatBot\build\CMakeFiles\CMakeTmp\cmTC_21786.vcxproj]
+
+    0 Advertencia(s)
+    1 Errores
+
+Tiempo transcurrido 00:00:00.52
+
+
+Performing Curl Test HAVE_IOCTLSOCKET_CAMEL failed with the following output:
+Change Dir: C:/Users/Ivan/labs/c++/C-ChatBot/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/MSBuild/Current/Bin/MSBuild.exe cmTC_3af67.vcxproj /p:Configuration=Debug /p:Platform=win32 /p:VisualStudioVersion=16.0 /v:n && Microsoft (R) Build Engine versión 16.11.2+f32259642 para .NET Framework
+Copyright (C) Microsoft Corporation. Todos los derechos reservados.
+
+Compilación iniciada a las 31/05/2023 16:51:31.
+Proyecto "C:\Users\Ivan\labs\c++\C-ChatBot\build\CMakeFiles\CMakeTmp\cmTC_3af67.vcxproj" en nodo 1 (destinos predeterminados).
+PrepareForBuild:
+  Creando directorio "cmTC_3af67.dir\Debug\".
+  Creando directorio "C:\Users\Ivan\labs\c++\C-ChatBot\build\CMakeFiles\CMakeTmp\Debug\".
+  Creando directorio "cmTC_3af67.dir\Debug\cmTC_3af67.tlog\".
+InitializeBuildStatus:
+  Se creará "cmTC_3af67.dir\Debug\cmTC_3af67.tlog\unsuccessfulbuild" porque se especificó "AlwaysCreate".
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\VC\Tools\MSVC\14.29.30133\bin\HostX86\x86\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D HAVE_IOCTLSOCKET_CAMEL /D HAVE_WINDOWS_H /D HAVE_WS2TCPIP_H /D HAVE_WINSOCK2_H /D HAVE_WINCRYPT_H /D HAVE_STDIO_H /D HAVE_SYS_STAT_H /D HAVE_SYS_TYPES_H /D HAVE_SYS_UTIME_H /D HAVE_ASSERT_H /D HAVE_ERRNO_H /D HAVE_FCNTL_H /D HAVE_IO_H /D HAVE_LOCALE_H /D HAVE_SETJMP_H /D HAVE_SIGNAL_H /D HAVE_STDBOOL_H /D HAVE_STDLIB_H /D HAVE_STRING_H /D HAVE_TIME_H /D HAVE_PROCESS_H /D HAVE_STDDEF_H /D HAVE_MALLOC_H /D HAVE_MEMORY_H /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_3af67.dir\Debug\\" /Fd"cmTC_3af67.dir\Debug\vc142.pdb" /external:W1 /Gd /TC /analyze- /errorReport:queue "C:\Users\Ivan\labs\c++\C-ChatBot\build\_deps\curl-src\CMake\CurlTests.c"
+  Compilador de optimización de C/C++ de Microsoft (R) versión 19.29.30148 para x86
+  (C) Microsoft Corporation. Todos los derechos reservados.
+  CurlTests.c
+  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D HAVE_IOCTLSOCKET_CAMEL /D HAVE_WINDOWS_H /D HAVE_WS2TCPIP_H /D HAVE_WINSOCK2_H /D HAVE_WINCRYPT_H /D HAVE_STDIO_H /D HAVE_SYS_STAT_H /D HAVE_SYS_TYPES_H /D HAVE_SYS_UTIME_H /D HAVE_ASSERT_H /D HAVE_ERRNO_H /D HAVE_FCNTL_H /D HAVE_IO_H /D HAVE_LOCALE_H /D HAVE_SETJMP_H /D HAVE_SIGNAL_H /D HAVE_STDBOOL_H /D HAVE_STDLIB_H /D HAVE_STRING_H /D HAVE_TIME_H /D HAVE_PROCESS_H /D HAVE_STDDEF_H /D HAVE_MALLOC_H /D HAVE_MEMORY_H /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_3af67.dir\Debug\\" /Fd"cmTC_3af67.dir\Debug\vc142.pdb" /external:W1 /Gd /TC /analyze- /errorReport:queue "C:\Users\Ivan\labs\c++\C-ChatBot\build\_deps\curl-src\CMake\CurlTests.c"
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\VC\Tools\MSVC\14.29.30133\bin\HostX86\x86\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\Ivan\labs\c++\C-ChatBot\build\CMakeFiles\CMakeTmp\Debug\cmTC_3af67.exe" /INCREMENTAL /ILK:"cmTC_3af67.dir\Debug\cmTC_3af67.ilk" /NOLOGO ws2_32.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Ivan/labs/c++/C-ChatBot/build/CMakeFiles/CMakeTmp/Debug/cmTC_3af67.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Ivan/labs/c++/C-ChatBot/build/CMakeFiles/CMakeTmp/Debug/cmTC_3af67.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_3af67.dir\Debug\CurlTests.obj
+CurlTests.obj : error LNK2019: símbolo externo _IoctlSocket sin resolver al que se hace referencia en la función _main [C:\Users\Ivan\labs\c++\C-ChatBot\build\CMakeFiles\CMakeTmp\cmTC_3af67.vcxproj]
+C:\Users\Ivan\labs\c++\C-ChatBot\build\CMakeFiles\CMakeTmp\Debug\cmTC_3af67.exe : fatal error LNK1120: 1 externos sin resolver [C:\Users\Ivan\labs\c++\C-ChatBot\build\CMakeFiles\CMakeTmp\cmTC_3af67.vcxproj]
+Compilación del proyecto terminada "C:\Users\Ivan\labs\c++\C-ChatBot\build\CMakeFiles\CMakeTmp\cmTC_3af67.vcxproj" (destinos predeterminados) -- ERROR.
+
+ERROR al compilar.
+
+"C:\Users\Ivan\labs\c++\C-ChatBot\build\CMakeFiles\CMakeTmp\cmTC_3af67.vcxproj" (destino predeterminado) (1) ->
+(Link destino) -> 
+  CurlTests.obj : error LNK2019: símbolo externo _IoctlSocket sin resolver al que se hace referencia en la función _main [C:\Users\Ivan\labs\c++\C-ChatBot\build\CMakeFiles\CMakeTmp\cmTC_3af67.vcxproj]
+  C:\Users\Ivan\labs\c++\C-ChatBot\build\CMakeFiles\CMakeTmp\Debug\cmTC_3af67.exe : fatal error LNK1120: 1 externos sin resolver [C:\Users\Ivan\labs\c++\C-ChatBot\build\CMakeFiles\CMakeTmp\cmTC_3af67.vcxproj]
+
+    0 Advertencia(s)
+    2 Errores
+
+Tiempo transcurrido 00:00:00.91
+
+
+Performing Curl Test HAVE_IOCTLSOCKET_CAMEL_FIONBIO failed with the following output:
+Change Dir: C:/Users/Ivan/labs/c++/C-ChatBot/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/MSBuild/Current/Bin/MSBuild.exe cmTC_a6b96.vcxproj /p:Configuration=Debug /p:Platform=win32 /p:VisualStudioVersion=16.0 /v:n && Microsoft (R) Build Engine versión 16.11.2+f32259642 para .NET Framework
+Copyright (C) Microsoft Corporation. Todos los derechos reservados.
+
+Compilación iniciada a las 31/05/2023 16:51:32.
+Proyecto "C:\Users\Ivan\labs\c++\C-ChatBot\build\CMakeFiles\CMakeTmp\cmTC_a6b96.vcxproj" en nodo 1 (destinos predeterminados).
+PrepareForBuild:
+  Creando directorio "cmTC_a6b96.dir\Debug\".
+  Creando directorio "C:\Users\Ivan\labs\c++\C-ChatBot\build\CMakeFiles\CMakeTmp\Debug\".
+  Creando directorio "cmTC_a6b96.dir\Debug\cmTC_a6b96.tlog\".
+InitializeBuildStatus:
+  Se creará "cmTC_a6b96.dir\Debug\cmTC_a6b96.tlog\unsuccessfulbuild" porque se especificó "AlwaysCreate".
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\VC\Tools\MSVC\14.29.30133\bin\HostX86\x86\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D HAVE_IOCTLSOCKET_CAMEL_FIONBIO /D HAVE_WINDOWS_H /D HAVE_WS2TCPIP_H /D HAVE_WINSOCK2_H /D HAVE_WINCRYPT_H /D HAVE_STDIO_H /D HAVE_SYS_STAT_H /D HAVE_SYS_TYPES_H /D HAVE_SYS_UTIME_H /D HAVE_ASSERT_H /D HAVE_ERRNO_H /D HAVE_FCNTL_H /D HAVE_IO_H /D HAVE_LOCALE_H /D HAVE_SETJMP_H /D HAVE_SIGNAL_H /D HAVE_STDBOOL_H /D HAVE_STDLIB_H /D HAVE_STRING_H /D HAVE_TIME_H /D HAVE_PROCESS_H /D HAVE_STDDEF_H /D HAVE_MALLOC_H /D HAVE_MEMORY_H /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_a6b96.dir\Debug\\" /Fd"cmTC_a6b96.dir\Debug\vc142.pdb" /external:W1 /Gd /TC /analyze- /errorReport:queue "C:\Users\Ivan\labs\c++\C-ChatBot\build\_deps\curl-src\CMake\CurlTests.c"
+  Compilador de optimización de C/C++ de Microsoft (R) versión 19.29.30148 para x86
+  (C) Microsoft Corporation. Todos los derechos reservados.
+  CurlTests.c
+  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D HAVE_IOCTLSOCKET_CAMEL_FIONBIO /D HAVE_WINDOWS_H /D HAVE_WS2TCPIP_H /D HAVE_WINSOCK2_H /D HAVE_WINCRYPT_H /D HAVE_STDIO_H /D HAVE_SYS_STAT_H /D HAVE_SYS_TYPES_H /D HAVE_SYS_UTIME_H /D HAVE_ASSERT_H /D HAVE_ERRNO_H /D HAVE_FCNTL_H /D HAVE_IO_H /D HAVE_LOCALE_H /D HAVE_SETJMP_H /D HAVE_SIGNAL_H /D HAVE_STDBOOL_H /D HAVE_STDLIB_H /D HAVE_STRING_H /D HAVE_TIME_H /D HAVE_PROCESS_H /D HAVE_STDDEF_H /D HAVE_MALLOC_H /D HAVE_MEMORY_H /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_a6b96.dir\Debug\\" /Fd"cmTC_a6b96.dir\Debug\vc142.pdb" /external:W1 /Gd /TC /analyze- /errorReport:queue "C:\Users\Ivan\labs\c++\C-ChatBot\build\_deps\curl-src\CMake\CurlTests.c"
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\VC\Tools\MSVC\14.29.30133\bin\HostX86\x86\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\Ivan\labs\c++\C-ChatBot\build\CMakeFiles\CMakeTmp\Debug\cmTC_a6b96.exe" /INCREMENTAL /ILK:"cmTC_a6b96.dir\Debug\cmTC_a6b96.ilk" /NOLOGO ws2_32.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Ivan/labs/c++/C-ChatBot/build/CMakeFiles/CMakeTmp/Debug/cmTC_a6b96.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Ivan/labs/c++/C-ChatBot/build/CMakeFiles/CMakeTmp/Debug/cmTC_a6b96.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_a6b96.dir\Debug\CurlTests.obj
+CurlTests.obj : error LNK2019: símbolo externo _IoctlSocket sin resolver al que se hace referencia en la función _main [C:\Users\Ivan\labs\c++\C-ChatBot\build\CMakeFiles\CMakeTmp\cmTC_a6b96.vcxproj]
+C:\Users\Ivan\labs\c++\C-ChatBot\build\CMakeFiles\CMakeTmp\Debug\cmTC_a6b96.exe : fatal error LNK1120: 1 externos sin resolver [C:\Users\Ivan\labs\c++\C-ChatBot\build\CMakeFiles\CMakeTmp\cmTC_a6b96.vcxproj]
+Compilación del proyecto terminada "C:\Users\Ivan\labs\c++\C-ChatBot\build\CMakeFiles\CMakeTmp\cmTC_a6b96.vcxproj" (destinos predeterminados) -- ERROR.
+
+ERROR al compilar.
+
+"C:\Users\Ivan\labs\c++\C-ChatBot\build\CMakeFiles\CMakeTmp\cmTC_a6b96.vcxproj" (destino predeterminado) (1) ->
+(Link destino) -> 
+  CurlTests.obj : error LNK2019: símbolo externo _IoctlSocket sin resolver al que se hace referencia en la función _main [C:\Users\Ivan\labs\c++\C-ChatBot\build\CMakeFiles\CMakeTmp\cmTC_a6b96.vcxproj]
+  C:\Users\Ivan\labs\c++\C-ChatBot\build\CMakeFiles\CMakeTmp\Debug\cmTC_a6b96.exe : fatal error LNK1120: 1 externos sin resolver [C:\Users\Ivan\labs\c++\C-ChatBot\build\CMakeFiles\CMakeTmp\cmTC_a6b96.vcxproj]
+
+    0 Advertencia(s)
+    2 Errores
+
+Tiempo transcurrido 00:00:00.93
+
+
+Performing Curl Test HAVE_IOCTL_FIONBIO failed with the following output:
+Change Dir: C:/Users/Ivan/labs/c++/C-ChatBot/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/MSBuild/Current/Bin/MSBuild.exe cmTC_1f690.vcxproj /p:Configuration=Debug /p:Platform=win32 /p:VisualStudioVersion=16.0 /v:n && Microsoft (R) Build Engine versión 16.11.2+f32259642 para .NET Framework
+Copyright (C) Microsoft Corporation. Todos los derechos reservados.
+
+Compilación iniciada a las 31/05/2023 16:51:35.
+Proyecto "C:\Users\Ivan\labs\c++\C-ChatBot\build\CMakeFiles\CMakeTmp\cmTC_1f690.vcxproj" en nodo 1 (destinos predeterminados).
+PrepareForBuild:
+  Creando directorio "cmTC_1f690.dir\Debug\".
+  Creando directorio "C:\Users\Ivan\labs\c++\C-ChatBot\build\CMakeFiles\CMakeTmp\Debug\".
+  Creando directorio "cmTC_1f690.dir\Debug\cmTC_1f690.tlog\".
+InitializeBuildStatus:
+  Se creará "cmTC_1f690.dir\Debug\cmTC_1f690.tlog\unsuccessfulbuild" porque se especificó "AlwaysCreate".
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\VC\Tools\MSVC\14.29.30133\bin\HostX86\x86\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D HAVE_IOCTL_FIONBIO /D HAVE_WINDOWS_H /D HAVE_WS2TCPIP_H /D HAVE_WINSOCK2_H /D HAVE_WINCRYPT_H /D HAVE_STDIO_H /D HAVE_SYS_STAT_H /D HAVE_SYS_TYPES_H /D HAVE_SYS_UTIME_H /D HAVE_ASSERT_H /D HAVE_ERRNO_H /D HAVE_FCNTL_H /D HAVE_IO_H /D HAVE_LOCALE_H /D HAVE_SETJMP_H /D HAVE_SIGNAL_H /D HAVE_STDBOOL_H /D HAVE_STDLIB_H /D HAVE_STRING_H /D HAVE_TIME_H /D HAVE_PROCESS_H /D HAVE_STDDEF_H /D HAVE_MALLOC_H /D HAVE_MEMORY_H /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_1f690.dir\Debug\\" /Fd"cmTC_1f690.dir\Debug\vc142.pdb" /external:W1 /Gd /TC /analyze- /errorReport:queue "C:\Users\Ivan\labs\c++\C-ChatBot\build\_deps\curl-src\CMake\CurlTests.c"
+  Compilador de optimización de C/C++ de Microsoft (R) versión 19.29.30148 para x86
+  (C) Microsoft Corporation. Todos los derechos reservados.
+  CurlTests.c
+  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D HAVE_IOCTL_FIONBIO /D HAVE_WINDOWS_H /D HAVE_WS2TCPIP_H /D HAVE_WINSOCK2_H /D HAVE_WINCRYPT_H /D HAVE_STDIO_H /D HAVE_SYS_STAT_H /D HAVE_SYS_TYPES_H /D HAVE_SYS_UTIME_H /D HAVE_ASSERT_H /D HAVE_ERRNO_H /D HAVE_FCNTL_H /D HAVE_IO_H /D HAVE_LOCALE_H /D HAVE_SETJMP_H /D HAVE_SIGNAL_H /D HAVE_STDBOOL_H /D HAVE_STDLIB_H /D HAVE_STRING_H /D HAVE_TIME_H /D HAVE_PROCESS_H /D HAVE_STDDEF_H /D HAVE_MALLOC_H /D HAVE_MEMORY_H /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_1f690.dir\Debug\\" /Fd"cmTC_1f690.dir\Debug\vc142.pdb" /external:W1 /Gd /TC /analyze- /errorReport:queue "C:\Users\Ivan\labs\c++\C-ChatBot\build\_deps\curl-src\CMake\CurlTests.c"
+C:\Users\Ivan\labs\c++\C-ChatBot\build\_deps\curl-src\CMake\CurlTests.c(343,33): error C2065: 'FIONBIO': identificador no declarado [C:\Users\Ivan\labs\c++\C-ChatBot\build\CMakeFiles\CMakeTmp\cmTC_1f690.vcxproj]
+Compilación del proyecto terminada "C:\Users\Ivan\labs\c++\C-ChatBot\build\CMakeFiles\CMakeTmp\cmTC_1f690.vcxproj" (destinos predeterminados) -- ERROR.
+
+ERROR al compilar.
+
+"C:\Users\Ivan\labs\c++\C-ChatBot\build\CMakeFiles\CMakeTmp\cmTC_1f690.vcxproj" (destino predeterminado) (1) ->
+(ClCompile destino) -> 
+  C:\Users\Ivan\labs\c++\C-ChatBot\build\_deps\curl-src\CMake\CurlTests.c(343,33): error C2065: 'FIONBIO': identificador no declarado [C:\Users\Ivan\labs\c++\C-ChatBot\build\CMakeFiles\CMakeTmp\cmTC_1f690.vcxproj]
+
+    0 Advertencia(s)
+    1 Errores
+
+Tiempo transcurrido 00:00:00.50
+
+
+Performing Curl Test HAVE_IOCTL_SIOCGIFADDR failed with the following output:
+Change Dir: C:/Users/Ivan/labs/c++/C-ChatBot/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/MSBuild/Current/Bin/MSBuild.exe cmTC_86261.vcxproj /p:Configuration=Debug /p:Platform=win32 /p:VisualStudioVersion=16.0 /v:n && Microsoft (R) Build Engine versión 16.11.2+f32259642 para .NET Framework
+Copyright (C) Microsoft Corporation. Todos los derechos reservados.
+
+Compilación iniciada a las 31/05/2023 16:51:36.
+Proyecto "C:\Users\Ivan\labs\c++\C-ChatBot\build\CMakeFiles\CMakeTmp\cmTC_86261.vcxproj" en nodo 1 (destinos predeterminados).
+PrepareForBuild:
+  Creando directorio "cmTC_86261.dir\Debug\".
+  Creando directorio "C:\Users\Ivan\labs\c++\C-ChatBot\build\CMakeFiles\CMakeTmp\Debug\".
+  Creando directorio "cmTC_86261.dir\Debug\cmTC_86261.tlog\".
+InitializeBuildStatus:
+  Se creará "cmTC_86261.dir\Debug\cmTC_86261.tlog\unsuccessfulbuild" porque se especificó "AlwaysCreate".
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\VC\Tools\MSVC\14.29.30133\bin\HostX86\x86\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D HAVE_IOCTL_SIOCGIFADDR /D HAVE_WINDOWS_H /D HAVE_WS2TCPIP_H /D HAVE_WINSOCK2_H /D HAVE_WINCRYPT_H /D HAVE_STDIO_H /D HAVE_SYS_STAT_H /D HAVE_SYS_TYPES_H /D HAVE_SYS_UTIME_H /D HAVE_ASSERT_H /D HAVE_ERRNO_H /D HAVE_FCNTL_H /D HAVE_IO_H /D HAVE_LOCALE_H /D HAVE_SETJMP_H /D HAVE_SIGNAL_H /D HAVE_STDBOOL_H /D HAVE_STDLIB_H /D HAVE_STRING_H /D HAVE_TIME_H /D HAVE_PROCESS_H /D HAVE_STDDEF_H /D HAVE_MALLOC_H /D HAVE_MEMORY_H /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_86261.dir\Debug\\" /Fd"cmTC_86261.dir\Debug\vc142.pdb" /external:W1 /Gd /TC /analyze- /errorReport:queue "C:\Users\Ivan\labs\c++\C-ChatBot\build\_deps\curl-src\CMake\CurlTests.c"
+  Compilador de optimización de C/C++ de Microsoft (R) versión 19.29.30148 para x86
+  (C) Microsoft Corporation. Todos los derechos reservados.
+  CurlTests.c
+  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D HAVE_IOCTL_SIOCGIFADDR /D HAVE_WINDOWS_H /D HAVE_WS2TCPIP_H /D HAVE_WINSOCK2_H /D HAVE_WINCRYPT_H /D HAVE_STDIO_H /D HAVE_SYS_STAT_H /D HAVE_SYS_TYPES_H /D HAVE_SYS_UTIME_H /D HAVE_ASSERT_H /D HAVE_ERRNO_H /D HAVE_FCNTL_H /D HAVE_IO_H /D HAVE_LOCALE_H /D HAVE_SETJMP_H /D HAVE_SIGNAL_H /D HAVE_STDBOOL_H /D HAVE_STDLIB_H /D HAVE_STRING_H /D HAVE_TIME_H /D HAVE_PROCESS_H /D HAVE_STDDEF_H /D HAVE_MALLOC_H /D HAVE_MEMORY_H /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_86261.dir\Debug\\" /Fd"cmTC_86261.dir\Debug\vc142.pdb" /external:W1 /Gd /TC /analyze- /errorReport:queue "C:\Users\Ivan\labs\c++\C-ChatBot\build\_deps\curl-src\CMake\CurlTests.c"
+C:\Users\Ivan\labs\c++\C-ChatBot\build\_deps\curl-src\CMake\CurlTests.c(368,10): fatal error C1083: No se puede abrir el archivo incluir: 'net/if.h': No such file or directory [C:\Users\Ivan\labs\c++\C-ChatBot\build\CMakeFiles\CMakeTmp\cmTC_86261.vcxproj]
+Compilación del proyecto terminada "C:\Users\Ivan\labs\c++\C-ChatBot\build\CMakeFiles\CMakeTmp\cmTC_86261.vcxproj" (destinos predeterminados) -- ERROR.
+
+ERROR al compilar.
+
+"C:\Users\Ivan\labs\c++\C-ChatBot\build\CMakeFiles\CMakeTmp\cmTC_86261.vcxproj" (destino predeterminado) (1) ->
+(ClCompile destino) -> 
+  C:\Users\Ivan\labs\c++\C-ChatBot\build\_deps\curl-src\CMake\CurlTests.c(368,10): fatal error C1083: No se puede abrir el archivo incluir: 'net/if.h': No such file or directory [C:\Users\Ivan\labs\c++\C-ChatBot\build\CMakeFiles\CMakeTmp\cmTC_86261.vcxproj]
+
+    0 Advertencia(s)
+    1 Errores
+
+Tiempo transcurrido 00:00:00.53
+
+
+Performing Curl Test HAVE_SETSOCKOPT_SO_NONBLOCK failed with the following output:
+Change Dir: C:/Users/Ivan/labs/c++/C-ChatBot/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/MSBuild/Current/Bin/MSBuild.exe cmTC_aa256.vcxproj /p:Configuration=Debug /p:Platform=win32 /p:VisualStudioVersion=16.0 /v:n && Microsoft (R) Build Engine versión 16.11.2+f32259642 para .NET Framework
+Copyright (C) Microsoft Corporation. Todos los derechos reservados.
+
+Compilación iniciada a las 31/05/2023 16:51:36.
+Proyecto "C:\Users\Ivan\labs\c++\C-ChatBot\build\CMakeFiles\CMakeTmp\cmTC_aa256.vcxproj" en nodo 1 (destinos predeterminados).
+PrepareForBuild:
+  Creando directorio "cmTC_aa256.dir\Debug\".
+  Creando directorio "C:\Users\Ivan\labs\c++\C-ChatBot\build\CMakeFiles\CMakeTmp\Debug\".
+  Creando directorio "cmTC_aa256.dir\Debug\cmTC_aa256.tlog\".
+InitializeBuildStatus:
+  Se creará "cmTC_aa256.dir\Debug\cmTC_aa256.tlog\unsuccessfulbuild" porque se especificó "AlwaysCreate".
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\VC\Tools\MSVC\14.29.30133\bin\HostX86\x86\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D HAVE_SETSOCKOPT_SO_NONBLOCK /D HAVE_WINDOWS_H /D HAVE_WS2TCPIP_H /D HAVE_WINSOCK2_H /D HAVE_WINCRYPT_H /D HAVE_STDIO_H /D HAVE_SYS_STAT_H /D HAVE_SYS_TYPES_H /D HAVE_SYS_UTIME_H /D HAVE_ASSERT_H /D HAVE_ERRNO_H /D HAVE_FCNTL_H /D HAVE_IO_H /D HAVE_LOCALE_H /D HAVE_SETJMP_H /D HAVE_SIGNAL_H /D HAVE_STDBOOL_H /D HAVE_STDLIB_H /D HAVE_STRING_H /D HAVE_TIME_H /D HAVE_PROCESS_H /D HAVE_STDDEF_H /D HAVE_MALLOC_H /D HAVE_MEMORY_H /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_aa256.dir\Debug\\" /Fd"cmTC_aa256.dir\Debug\vc142.pdb" /external:W1 /Gd /TC /analyze- /errorReport:queue "C:\Users\Ivan\labs\c++\C-ChatBot\build\_deps\curl-src\CMake\CurlTests.c"
+  Compilador de optimización de C/C++ de Microsoft (R) versión 19.29.30148 para x86
+  (C) Microsoft Corporation. Todos los derechos reservados.
+  CurlTests.c
+  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D HAVE_SETSOCKOPT_SO_NONBLOCK /D HAVE_WINDOWS_H /D HAVE_WS2TCPIP_H /D HAVE_WINSOCK2_H /D HAVE_WINCRYPT_H /D HAVE_STDIO_H /D HAVE_SYS_STAT_H /D HAVE_SYS_TYPES_H /D HAVE_SYS_UTIME_H /D HAVE_ASSERT_H /D HAVE_ERRNO_H /D HAVE_FCNTL_H /D HAVE_IO_H /D HAVE_LOCALE_H /D HAVE_SETJMP_H /D HAVE_SIGNAL_H /D HAVE_STDBOOL_H /D HAVE_STDLIB_H /D HAVE_STRING_H /D HAVE_TIME_H /D HAVE_PROCESS_H /D HAVE_STDDEF_H /D HAVE_MALLOC_H /D HAVE_MEMORY_H /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_aa256.dir\Debug\\" /Fd"cmTC_aa256.dir\Debug\vc142.pdb" /external:W1 /Gd /TC /analyze- /errorReport:queue "C:\Users\Ivan\labs\c++\C-ChatBot\build\_deps\curl-src\CMake\CurlTests.c"
+C:\Users\Ivan\labs\c++\C-ChatBot\build\_deps\curl-src\CMake\CurlTests.c(404,54): error C2065: 'SO_NONBLOCK': identificador no declarado [C:\Users\Ivan\labs\c++\C-ChatBot\build\CMakeFiles\CMakeTmp\cmTC_aa256.vcxproj]
+Compilación del proyecto terminada "C:\Users\Ivan\labs\c++\C-ChatBot\build\CMakeFiles\CMakeTmp\cmTC_aa256.vcxproj" (destinos predeterminados) -- ERROR.
+
+ERROR al compilar.
+
+"C:\Users\Ivan\labs\c++\C-ChatBot\build\CMakeFiles\CMakeTmp\cmTC_aa256.vcxproj" (destino predeterminado) (1) ->
+(ClCompile destino) -> 
+  C:\Users\Ivan\labs\c++\C-ChatBot\build\_deps\curl-src\CMake\CurlTests.c(404,54): error C2065: 'SO_NONBLOCK': identificador no declarado [C:\Users\Ivan\labs\c++\C-ChatBot\build\CMakeFiles\CMakeTmp\cmTC_aa256.vcxproj]
+
+    0 Advertencia(s)
+    1 Errores
+
+Tiempo transcurrido 00:00:00.61
+
+
+Performing Curl Test HAVE_SOCKADDR_IN6_SIN6_SCOPE_ID failed with the following output:
+Change Dir: C:/Users/Ivan/labs/c++/C-ChatBot/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/MSBuild/Current/Bin/MSBuild.exe cmTC_94103.vcxproj /p:Configuration=Debug /p:Platform=win32 /p:VisualStudioVersion=16.0 /v:n && Microsoft (R) Build Engine versión 16.11.2+f32259642 para .NET Framework
+Copyright (C) Microsoft Corporation. Todos los derechos reservados.
+
+Compilación iniciada a las 31/05/2023 16:51:37.
+Proyecto "C:\Users\Ivan\labs\c++\C-ChatBot\build\CMakeFiles\CMakeTmp\cmTC_94103.vcxproj" en nodo 1 (destinos predeterminados).
+PrepareForBuild:
+  Creando directorio "cmTC_94103.dir\Debug\".
+  Creando directorio "C:\Users\Ivan\labs\c++\C-ChatBot\build\CMakeFiles\CMakeTmp\Debug\".
+  Creando directorio "cmTC_94103.dir\Debug\cmTC_94103.tlog\".
+InitializeBuildStatus:
+  Se creará "cmTC_94103.dir\Debug\cmTC_94103.tlog\unsuccessfulbuild" porque se especificó "AlwaysCreate".
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\VC\Tools\MSVC\14.29.30133\bin\HostX86\x86\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D HAVE_SOCKADDR_IN6_SIN6_SCOPE_ID /D HAVE_WINDOWS_H /D HAVE_WS2TCPIP_H /D HAVE_WINSOCK2_H /D HAVE_WINCRYPT_H /D HAVE_STDIO_H /D HAVE_SYS_STAT_H /D HAVE_SYS_TYPES_H /D HAVE_SYS_UTIME_H /D HAVE_ASSERT_H /D HAVE_ERRNO_H /D HAVE_FCNTL_H /D HAVE_IO_H /D HAVE_LOCALE_H /D HAVE_SETJMP_H /D HAVE_SIGNAL_H /D HAVE_STDBOOL_H /D HAVE_STDLIB_H /D HAVE_STRING_H /D HAVE_TIME_H /D HAVE_PROCESS_H /D HAVE_STDDEF_H /D HAVE_MALLOC_H /D HAVE_MEMORY_H /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_94103.dir\Debug\\" /Fd"cmTC_94103.dir\Debug\vc142.pdb" /external:W1 /Gd /TC /analyze- /errorReport:queue "C:\Users\Ivan\labs\c++\C-ChatBot\build\_deps\curl-src\CMake\CurlTests.c"
+  Compilador de optimización de C/C++ de Microsoft (R) versión 19.29.30148 para x86
+  (C) Microsoft Corporation. Todos los derechos reservados.
+  CurlTests.c
+  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D HAVE_SOCKADDR_IN6_SIN6_SCOPE_ID /D HAVE_WINDOWS_H /D HAVE_WS2TCPIP_H /D HAVE_WINSOCK2_H /D HAVE_WINCRYPT_H /D HAVE_STDIO_H /D HAVE_SYS_STAT_H /D HAVE_SYS_TYPES_H /D HAVE_SYS_UTIME_H /D HAVE_ASSERT_H /D HAVE_ERRNO_H /D HAVE_FCNTL_H /D HAVE_IO_H /D HAVE_LOCALE_H /D HAVE_SETJMP_H /D HAVE_SIGNAL_H /D HAVE_STDBOOL_H /D HAVE_STDLIB_H /D HAVE_STRING_H /D HAVE_TIME_H /D HAVE_PROCESS_H /D HAVE_STDDEF_H /D HAVE_MALLOC_H /D HAVE_MEMORY_H /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_94103.dir\Debug\\" /Fd"cmTC_94103.dir\Debug\vc142.pdb" /external:W1 /Gd /TC /analyze- /errorReport:queue "C:\Users\Ivan\labs\c++\C-ChatBot\build\_deps\curl-src\CMake\CurlTests.c"
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\VC\Tools\MSVC\14.29.30133\bin\HostX86\x86\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\Ivan\labs\c++\C-ChatBot\build\CMakeFiles\CMakeTmp\Debug\cmTC_94103.exe" /INCREMENTAL /ILK:"cmTC_94103.dir\Debug\cmTC_94103.ilk" /NOLOGO ws2_32.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Ivan/labs/c++/C-ChatBot/build/CMakeFiles/CMakeTmp/Debug/cmTC_94103.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Ivan/labs/c++/C-ChatBot/build/CMakeFiles/CMakeTmp/Debug/cmTC_94103.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_94103.dir\Debug\CurlTests.obj
+MSVCRTD.lib(exe_main.obj) : error LNK2019: símbolo externo _main sin resolver al que se hace referencia en la función "int __cdecl invoke_main(void)" (?invoke_main@@YAHXZ) [C:\Users\Ivan\labs\c++\C-ChatBot\build\CMakeFiles\CMakeTmp\cmTC_94103.vcxproj]
+C:\Users\Ivan\labs\c++\C-ChatBot\build\CMakeFiles\CMakeTmp\Debug\cmTC_94103.exe : fatal error LNK1120: 1 externos sin resolver [C:\Users\Ivan\labs\c++\C-ChatBot\build\CMakeFiles\CMakeTmp\cmTC_94103.vcxproj]
+Compilación del proyecto terminada "C:\Users\Ivan\labs\c++\C-ChatBot\build\CMakeFiles\CMakeTmp\cmTC_94103.vcxproj" (destinos predeterminados) -- ERROR.
+
+ERROR al compilar.
+
+"C:\Users\Ivan\labs\c++\C-ChatBot\build\CMakeFiles\CMakeTmp\cmTC_94103.vcxproj" (destino predeterminado) (1) ->
+(Link destino) -> 
+  MSVCRTD.lib(exe_main.obj) : error LNK2019: símbolo externo _main sin resolver al que se hace referencia en la función "int __cdecl invoke_main(void)" (?invoke_main@@YAHXZ) [C:\Users\Ivan\labs\c++\C-ChatBot\build\CMakeFiles\CMakeTmp\cmTC_94103.vcxproj]
+  C:\Users\Ivan\labs\c++\C-ChatBot\build\CMakeFiles\CMakeTmp\Debug\cmTC_94103.exe : fatal error LNK1120: 1 externos sin resolver [C:\Users\Ivan\labs\c++\C-ChatBot\build\CMakeFiles\CMakeTmp\cmTC_94103.vcxproj]
+
+    0 Advertencia(s)
+    2 Errores
+
+Tiempo transcurrido 00:00:00.61
+
+
+Performing Curl Test HAVE_FILE_OFFSET_BITS failed with the following output:
+Change Dir: C:/Users/Ivan/labs/c++/C-ChatBot/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/MSBuild/Current/Bin/MSBuild.exe cmTC_a7078.vcxproj /p:Configuration=Debug /p:Platform=win32 /p:VisualStudioVersion=16.0 /v:n && Microsoft (R) Build Engine versión 16.11.2+f32259642 para .NET Framework
+Copyright (C) Microsoft Corporation. Todos los derechos reservados.
+
+Compilación iniciada a las 31/05/2023 16:51:39.
+Proyecto "C:\Users\Ivan\labs\c++\C-ChatBot\build\CMakeFiles\CMakeTmp\cmTC_a7078.vcxproj" en nodo 1 (destinos predeterminados).
+PrepareForBuild:
+  Creando directorio "cmTC_a7078.dir\Debug\".
+  Creando directorio "C:\Users\Ivan\labs\c++\C-ChatBot\build\CMakeFiles\CMakeTmp\Debug\".
+  Creando directorio "cmTC_a7078.dir\Debug\cmTC_a7078.tlog\".
+InitializeBuildStatus:
+  Se creará "cmTC_a7078.dir\Debug\cmTC_a7078.tlog\unsuccessfulbuild" porque se especificó "AlwaysCreate".
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\VC\Tools\MSVC\14.29.30133\bin\HostX86\x86\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D HAVE_FILE_OFFSET_BITS /D HAVE_WINDOWS_H /D HAVE_WS2TCPIP_H /D HAVE_WINSOCK2_H /D HAVE_WINCRYPT_H /D HAVE_STDIO_H /D HAVE_SYS_STAT_H /D HAVE_SYS_TYPES_H /D HAVE_SYS_UTIME_H /D HAVE_ASSERT_H /D HAVE_ERRNO_H /D HAVE_FCNTL_H /D HAVE_IO_H /D HAVE_LOCALE_H /D HAVE_SETJMP_H /D HAVE_SIGNAL_H /D HAVE_STDBOOL_H /D HAVE_STDLIB_H /D HAVE_STRING_H /D HAVE_TIME_H /D HAVE_PROCESS_H /D HAVE_STDDEF_H /D HAVE_MALLOC_H /D HAVE_MEMORY_H /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_a7078.dir\Debug\\" /Fd"cmTC_a7078.dir\Debug\vc142.pdb" /external:W1 /Gd /TC /analyze- /errorReport:queue "C:\Users\Ivan\labs\c++\C-ChatBot\build\_deps\curl-src\CMake\CurlTests.c"
+  Compilador de optimización de C/C++ de Microsoft (R) versión 19.29.30148 para x86
+  (C) Microsoft Corporation. Todos los derechos reservados.
+  CurlTests.c
+  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D HAVE_FILE_OFFSET_BITS /D HAVE_WINDOWS_H /D HAVE_WS2TCPIP_H /D HAVE_WINSOCK2_H /D HAVE_WINCRYPT_H /D HAVE_STDIO_H /D HAVE_SYS_STAT_H /D HAVE_SYS_TYPES_H /D HAVE_SYS_UTIME_H /D HAVE_ASSERT_H /D HAVE_ERRNO_H /D HAVE_FCNTL_H /D HAVE_IO_H /D HAVE_LOCALE_H /D HAVE_SETJMP_H /D HAVE_SIGNAL_H /D HAVE_STDBOOL_H /D HAVE_STDLIB_H /D HAVE_STRING_H /D HAVE_TIME_H /D HAVE_PROCESS_H /D HAVE_STDDEF_H /D HAVE_MALLOC_H /D HAVE_MEMORY_H /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_a7078.dir\Debug\\" /Fd"cmTC_a7078.dir\Debug\vc142.pdb" /external:W1 /Gd /TC /analyze- /errorReport:queue "C:\Users\Ivan\labs\c++\C-ChatBot\build\_deps\curl-src\CMake\CurlTests.c"
+C:\Users\Ivan\labs\c++\C-ChatBot\build\_deps\curl-src\CMake\CurlTests.c(218,23): warning C4293: '<<': recuento de desplazamientos negativo o demasiado grande; comportamiento impredecible [C:\Users\Ivan\labs\c++\C-ChatBot\build\CMakeFiles\CMakeTmp\cmTC_a7078.vcxproj]
+C:\Users\Ivan\labs\c++\C-ChatBot\build\_deps\curl-src\CMake\CurlTests.c(219,27): warning C4293: '<<': recuento de desplazamientos negativo o demasiado grande; comportamiento impredecible [C:\Users\Ivan\labs\c++\C-ChatBot\build\CMakeFiles\CMakeTmp\cmTC_a7078.vcxproj]
+C:\Users\Ivan\labs\c++\C-ChatBot\build\_deps\curl-src\CMake\CurlTests.c(220,31): error C2118: subíndice negativo [C:\Users\Ivan\labs\c++\C-ChatBot\build\CMakeFiles\CMakeTmp\cmTC_a7078.vcxproj]
+Compilación del proyecto terminada "C:\Users\Ivan\labs\c++\C-ChatBot\build\CMakeFiles\CMakeTmp\cmTC_a7078.vcxproj" (destinos predeterminados) -- ERROR.
+
+ERROR al compilar.
+
+"C:\Users\Ivan\labs\c++\C-ChatBot\build\CMakeFiles\CMakeTmp\cmTC_a7078.vcxproj" (destino predeterminado) (1) ->
+(ClCompile destino) -> 
+  C:\Users\Ivan\labs\c++\C-ChatBot\build\_deps\curl-src\CMake\CurlTests.c(218,23): warning C4293: '<<': recuento de desplazamientos negativo o demasiado grande; comportamiento impredecible [C:\Users\Ivan\labs\c++\C-ChatBot\build\CMakeFiles\CMakeTmp\cmTC_a7078.vcxproj]
+  C:\Users\Ivan\labs\c++\C-ChatBot\build\_deps\curl-src\CMake\CurlTests.c(219,27): warning C4293: '<<': recuento de desplazamientos negativo o demasiado grande; comportamiento impredecible [C:\Users\Ivan\labs\c++\C-ChatBot\build\CMakeFiles\CMakeTmp\cmTC_a7078.vcxproj]
+
+
+"C:\Users\Ivan\labs\c++\C-ChatBot\build\CMakeFiles\CMakeTmp\cmTC_a7078.vcxproj" (destino predeterminado) (1) ->
+(ClCompile destino) -> 
+  C:\Users\Ivan\labs\c++\C-ChatBot\build\_deps\curl-src\CMake\CurlTests.c(220,31): error C2118: subíndice negativo [C:\Users\Ivan\labs\c++\C-ChatBot\build\CMakeFiles\CMakeTmp\cmTC_a7078.vcxproj]
+
+    2 Advertencia(s)
+    1 Errores
+
+Tiempo transcurrido 00:00:00.45
+
+
+Performing Curl Test HAVE_VARIADIC_MACROS_GCC failed with the following output:
+Change Dir: C:/Users/Ivan/labs/c++/C-ChatBot/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/MSBuild/Current/Bin/MSBuild.exe cmTC_6679c.vcxproj /p:Configuration=Debug /p:Platform=win32 /p:VisualStudioVersion=16.0 /v:n && Microsoft (R) Build Engine versión 16.11.2+f32259642 para .NET Framework
+Copyright (C) Microsoft Corporation. Todos los derechos reservados.
+
+Compilación iniciada a las 31/05/2023 16:51:41.
+Proyecto "C:\Users\Ivan\labs\c++\C-ChatBot\build\CMakeFiles\CMakeTmp\cmTC_6679c.vcxproj" en nodo 1 (destinos predeterminados).
+PrepareForBuild:
+  Creando directorio "cmTC_6679c.dir\Debug\".
+  Creando directorio "C:\Users\Ivan\labs\c++\C-ChatBot\build\CMakeFiles\CMakeTmp\Debug\".
+  Creando directorio "cmTC_6679c.dir\Debug\cmTC_6679c.tlog\".
+InitializeBuildStatus:
+  Se creará "cmTC_6679c.dir\Debug\cmTC_6679c.tlog\unsuccessfulbuild" porque se especificó "AlwaysCreate".
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\VC\Tools\MSVC\14.29.30133\bin\HostX86\x86\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D HAVE_VARIADIC_MACROS_GCC /D HAVE_WINDOWS_H /D HAVE_WS2TCPIP_H /D HAVE_WINSOCK2_H /D HAVE_WINCRYPT_H /D HAVE_STDIO_H /D HAVE_SYS_STAT_H /D HAVE_SYS_TYPES_H /D HAVE_SYS_UTIME_H /D HAVE_ASSERT_H /D HAVE_ERRNO_H /D HAVE_FCNTL_H /D HAVE_IO_H /D HAVE_LOCALE_H /D HAVE_SETJMP_H /D HAVE_SIGNAL_H /D HAVE_STDBOOL_H /D HAVE_STDLIB_H /D HAVE_STRING_H /D HAVE_TIME_H /D HAVE_PROCESS_H /D HAVE_STDDEF_H /D HAVE_MALLOC_H /D HAVE_MEMORY_H /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_6679c.dir\Debug\\" /Fd"cmTC_6679c.dir\Debug\vc142.pdb" /external:W1 /Gd /TC /analyze- /errorReport:queue "C:\Users\Ivan\labs\c++\C-ChatBot\build\_deps\curl-src\CMake\CurlTests.c"
+  Compilador de optimización de C/C++ de Microsoft (R) versión 19.29.30148 para x86
+  (C) Microsoft Corporation. Todos los derechos reservados.
+  CurlTests.c
+  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D HAVE_VARIADIC_MACROS_GCC /D HAVE_WINDOWS_H /D HAVE_WS2TCPIP_H /D HAVE_WINSOCK2_H /D HAVE_WINCRYPT_H /D HAVE_STDIO_H /D HAVE_SYS_STAT_H /D HAVE_SYS_TYPES_H /D HAVE_SYS_UTIME_H /D HAVE_ASSERT_H /D HAVE_ERRNO_H /D HAVE_FCNTL_H /D HAVE_IO_H /D HAVE_LOCALE_H /D HAVE_SETJMP_H /D HAVE_SIGNAL_H /D HAVE_STDBOOL_H /D HAVE_STDLIB_H /D HAVE_STRING_H /D HAVE_TIME_H /D HAVE_PROCESS_H /D HAVE_STDDEF_H /D HAVE_MALLOC_H /D HAVE_MEMORY_H /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_6679c.dir\Debug\\" /Fd"cmTC_6679c.dir\Debug\vc142.pdb" /external:W1 /Gd /TC /analyze- /errorReport:queue "C:\Users\Ivan\labs\c++\C-ChatBot\build\_deps\curl-src\CMake\CurlTests.c"
+C:\Users\Ivan\labs\c++\C-ChatBot\build\_deps\curl-src\CMake\CurlTests.c(495,1): error C2010: ".": no se esperaba en la lista de parámetros de macro [C:\Users\Ivan\labs\c++\C-ChatBot\build\CMakeFiles\CMakeTmp\cmTC_6679c.vcxproj]
+C:\Users\Ivan\labs\c++\C-ChatBot\build\_deps\curl-src\CMake\CurlTests.c(496,1): error C2010: ".": no se esperaba en la lista de parámetros de macro [C:\Users\Ivan\labs\c++\C-ChatBot\build\CMakeFiles\CMakeTmp\cmTC_6679c.vcxproj]
+Compilación del proyecto terminada "C:\Users\Ivan\labs\c++\C-ChatBot\build\CMakeFiles\CMakeTmp\cmTC_6679c.vcxproj" (destinos predeterminados) -- ERROR.
+
+ERROR al compilar.
+
+"C:\Users\Ivan\labs\c++\C-ChatBot\build\CMakeFiles\CMakeTmp\cmTC_6679c.vcxproj" (destino predeterminado) (1) ->
+(ClCompile destino) -> 
+  C:\Users\Ivan\labs\c++\C-ChatBot\build\_deps\curl-src\CMake\CurlTests.c(495,1): error C2010: ".": no se esperaba en la lista de parámetros de macro [C:\Users\Ivan\labs\c++\C-ChatBot\build\CMakeFiles\CMakeTmp\cmTC_6679c.vcxproj]
+  C:\Users\Ivan\labs\c++\C-ChatBot\build\_deps\curl-src\CMake\CurlTests.c(496,1): error C2010: ".": no se esperaba en la lista de parámetros de macro [C:\Users\Ivan\labs\c++\C-ChatBot\build\CMakeFiles\CMakeTmp\cmTC_6679c.vcxproj]
+
+    0 Advertencia(s)
+    2 Errores
+
+Tiempo transcurrido 00:00:00.43
+
+
+Performing Curl Test HAVE_GLIBC_STRERROR_R failed with the following output:
+Change Dir: C:/Users/Ivan/labs/c++/C-ChatBot/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/MSBuild/Current/Bin/MSBuild.exe cmTC_d0b3e.vcxproj /p:Configuration=Debug /p:Platform=win32 /p:VisualStudioVersion=16.0 /v:n && Microsoft (R) Build Engine versión 16.11.2+f32259642 para .NET Framework
+Copyright (C) Microsoft Corporation. Todos los derechos reservados.
+
+Compilación iniciada a las 31/05/2023 16:51:44.
+Proyecto "C:\Users\Ivan\labs\c++\C-ChatBot\build\CMakeFiles\CMakeTmp\cmTC_d0b3e.vcxproj" en nodo 1 (destinos predeterminados).
+PrepareForBuild:
+  Creando directorio "cmTC_d0b3e.dir\Debug\".
+  Creando directorio "C:\Users\Ivan\labs\c++\C-ChatBot\build\CMakeFiles\CMakeTmp\Debug\".
+  Creando directorio "cmTC_d0b3e.dir\Debug\cmTC_d0b3e.tlog\".
+InitializeBuildStatus:
+  Se creará "cmTC_d0b3e.dir\Debug\cmTC_d0b3e.tlog\unsuccessfulbuild" porque se especificó "AlwaysCreate".
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\VC\Tools\MSVC\14.29.30133\bin\HostX86\x86\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D HAVE_GLIBC_STRERROR_R /D HAVE_WINDOWS_H /D HAVE_WS2TCPIP_H /D HAVE_WINSOCK2_H /D HAVE_WINCRYPT_H /D HAVE_STDIO_H /D HAVE_SYS_STAT_H /D HAVE_SYS_TYPES_H /D HAVE_SYS_UTIME_H /D HAVE_ASSERT_H /D HAVE_ERRNO_H /D HAVE_FCNTL_H /D HAVE_IO_H /D HAVE_LOCALE_H /D HAVE_SETJMP_H /D HAVE_SIGNAL_H /D HAVE_STDBOOL_H /D HAVE_STDLIB_H /D HAVE_STRING_H /D HAVE_TIME_H /D HAVE_PROCESS_H /D HAVE_STDDEF_H /D HAVE_MALLOC_H /D HAVE_MEMORY_H /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_d0b3e.dir\Debug\\" /Fd"cmTC_d0b3e.dir\Debug\vc142.pdb" /external:W1 /Gd /TC /analyze- /errorReport:queue "C:\Users\Ivan\labs\c++\C-ChatBot\build\_deps\curl-src\CMake\CurlTests.c"
+  Compilador de optimización de C/C++ de Microsoft (R) versión 19.29.30148 para x86
+  (C) Microsoft Corporation. Todos los derechos reservados.
+  CurlTests.c
+  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D HAVE_GLIBC_STRERROR_R /D HAVE_WINDOWS_H /D HAVE_WS2TCPIP_H /D HAVE_WINSOCK2_H /D HAVE_WINCRYPT_H /D HAVE_STDIO_H /D HAVE_SYS_STAT_H /D HAVE_SYS_TYPES_H /D HAVE_SYS_UTIME_H /D HAVE_ASSERT_H /D HAVE_ERRNO_H /D HAVE_FCNTL_H /D HAVE_IO_H /D HAVE_LOCALE_H /D HAVE_SETJMP_H /D HAVE_SIGNAL_H /D HAVE_STDBOOL_H /D HAVE_STDLIB_H /D HAVE_STRING_H /D HAVE_TIME_H /D HAVE_PROCESS_H /D HAVE_STDDEF_H /D HAVE_MALLOC_H /D HAVE_MEMORY_H /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_d0b3e.dir\Debug\\" /Fd"cmTC_d0b3e.dir\Debug\vc142.pdb" /external:W1 /Gd /TC /analyze- /errorReport:queue "C:\Users\Ivan\labs\c++\C-ChatBot\build\_deps\curl-src\CMake\CurlTests.c"
+C:\Users\Ivan\labs\c++\C-ChatBot\build\_deps\curl-src\CMake\CurlTests.c(420,53): error C2109: el subíndice requiere una matriz o tipo de puntero [C:\Users\Ivan\labs\c++\C-ChatBot\build\CMakeFiles\CMakeTmp\cmTC_d0b3e.vcxproj]
+C:\Users\Ivan\labs\c++\C-ChatBot\build\_deps\curl-src\CMake\CurlTests.c(420,8): error C2198: 'check': no hay suficientes argumentos para la llamada [C:\Users\Ivan\labs\c++\C-ChatBot\build\CMakeFiles\CMakeTmp\cmTC_d0b3e.vcxproj]
+Compilación del proyecto terminada "C:\Users\Ivan\labs\c++\C-ChatBot\build\CMakeFiles\CMakeTmp\cmTC_d0b3e.vcxproj" (destinos predeterminados) -- ERROR.
+
+ERROR al compilar.
+
+"C:\Users\Ivan\labs\c++\C-ChatBot\build\CMakeFiles\CMakeTmp\cmTC_d0b3e.vcxproj" (destino predeterminado) (1) ->
+(ClCompile destino) -> 
+  C:\Users\Ivan\labs\c++\C-ChatBot\build\_deps\curl-src\CMake\CurlTests.c(420,53): error C2109: el subíndice requiere una matriz o tipo de puntero [C:\Users\Ivan\labs\c++\C-ChatBot\build\CMakeFiles\CMakeTmp\cmTC_d0b3e.vcxproj]
+  C:\Users\Ivan\labs\c++\C-ChatBot\build\_deps\curl-src\CMake\CurlTests.c(420,8): error C2198: 'check': no hay suficientes argumentos para la llamada [C:\Users\Ivan\labs\c++\C-ChatBot\build\CMakeFiles\CMakeTmp\cmTC_d0b3e.vcxproj]
+
+    0 Advertencia(s)
+    2 Errores
+
+Tiempo transcurrido 00:00:00.45
+
+
+Performing Curl Test HAVE_POSIX_STRERROR_R failed with the following output:
+Change Dir: C:/Users/Ivan/labs/c++/C-ChatBot/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/MSBuild/Current/Bin/MSBuild.exe cmTC_ff408.vcxproj /p:Configuration=Debug /p:Platform=win32 /p:VisualStudioVersion=16.0 /v:n && Microsoft (R) Build Engine versión 16.11.2+f32259642 para .NET Framework
+Copyright (C) Microsoft Corporation. Todos los derechos reservados.
+
+Compilación iniciada a las 31/05/2023 16:51:44.
+Proyecto "C:\Users\Ivan\labs\c++\C-ChatBot\build\CMakeFiles\CMakeTmp\cmTC_ff408.vcxproj" en nodo 1 (destinos predeterminados).
+PrepareForBuild:
+  Creando directorio "cmTC_ff408.dir\Debug\".
+  Creando directorio "C:\Users\Ivan\labs\c++\C-ChatBot\build\CMakeFiles\CMakeTmp\Debug\".
+  Creando directorio "cmTC_ff408.dir\Debug\cmTC_ff408.tlog\".
+InitializeBuildStatus:
+  Se creará "cmTC_ff408.dir\Debug\cmTC_ff408.tlog\unsuccessfulbuild" porque se especificó "AlwaysCreate".
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\VC\Tools\MSVC\14.29.30133\bin\HostX86\x86\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D HAVE_POSIX_STRERROR_R /D HAVE_WINDOWS_H /D HAVE_WS2TCPIP_H /D HAVE_WINSOCK2_H /D HAVE_WINCRYPT_H /D HAVE_STDIO_H /D HAVE_SYS_STAT_H /D HAVE_SYS_TYPES_H /D HAVE_SYS_UTIME_H /D HAVE_ASSERT_H /D HAVE_ERRNO_H /D HAVE_FCNTL_H /D HAVE_IO_H /D HAVE_LOCALE_H /D HAVE_SETJMP_H /D HAVE_SIGNAL_H /D HAVE_STDBOOL_H /D HAVE_STDLIB_H /D HAVE_STRING_H /D HAVE_TIME_H /D HAVE_PROCESS_H /D HAVE_STDDEF_H /D HAVE_MALLOC_H /D HAVE_MEMORY_H /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_ff408.dir\Debug\\" /Fd"cmTC_ff408.dir\Debug\vc142.pdb" /external:W1 /Gd /TC /analyze- /errorReport:queue "C:\Users\Ivan\labs\c++\C-ChatBot\build\_deps\curl-src\CMake\CurlTests.c"
+  Compilador de optimización de C/C++ de Microsoft (R) versión 19.29.30148 para x86
+  (C) Microsoft Corporation. Todos los derechos reservados.
+  CurlTests.c
+  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D HAVE_POSIX_STRERROR_R /D HAVE_WINDOWS_H /D HAVE_WS2TCPIP_H /D HAVE_WINSOCK2_H /D HAVE_WINCRYPT_H /D HAVE_STDIO_H /D HAVE_SYS_STAT_H /D HAVE_SYS_TYPES_H /D HAVE_SYS_UTIME_H /D HAVE_ASSERT_H /D HAVE_ERRNO_H /D HAVE_FCNTL_H /D HAVE_IO_H /D HAVE_LOCALE_H /D HAVE_SETJMP_H /D HAVE_SIGNAL_H /D HAVE_STDBOOL_H /D HAVE_STDLIB_H /D HAVE_STRING_H /D HAVE_TIME_H /D HAVE_PROCESS_H /D HAVE_STDDEF_H /D HAVE_MALLOC_H /D HAVE_MEMORY_H /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_ff408.dir\Debug\\" /Fd"cmTC_ff408.dir\Debug\vc142.pdb" /external:W1 /Gd /TC /analyze- /errorReport:queue "C:\Users\Ivan\labs\c++\C-ChatBot\build\_deps\curl-src\CMake\CurlTests.c"
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\VC\Tools\MSVC\14.29.30133\bin\HostX86\x86\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\Ivan\labs\c++\C-ChatBot\build\CMakeFiles\CMakeTmp\Debug\cmTC_ff408.exe" /INCREMENTAL /ILK:"cmTC_ff408.dir\Debug\cmTC_ff408.ilk" /NOLOGO ws2_32.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Ivan/labs/c++/C-ChatBot/build/CMakeFiles/CMakeTmp/Debug/cmTC_ff408.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Ivan/labs/c++/C-ChatBot/build/CMakeFiles/CMakeTmp/Debug/cmTC_ff408.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_ff408.dir\Debug\CurlTests.obj
+CurlTests.obj : error LNK2019: símbolo externo _strerror_r sin resolver al que se hace referencia en la función _main [C:\Users\Ivan\labs\c++\C-ChatBot\build\CMakeFiles\CMakeTmp\cmTC_ff408.vcxproj]
+C:\Users\Ivan\labs\c++\C-ChatBot\build\CMakeFiles\CMakeTmp\Debug\cmTC_ff408.exe : fatal error LNK1120: 1 externos sin resolver [C:\Users\Ivan\labs\c++\C-ChatBot\build\CMakeFiles\CMakeTmp\cmTC_ff408.vcxproj]
+Compilación del proyecto terminada "C:\Users\Ivan\labs\c++\C-ChatBot\build\CMakeFiles\CMakeTmp\cmTC_ff408.vcxproj" (destinos predeterminados) -- ERROR.
+
+ERROR al compilar.
+
+"C:\Users\Ivan\labs\c++\C-ChatBot\build\CMakeFiles\CMakeTmp\cmTC_ff408.vcxproj" (destino predeterminado) (1) ->
+(Link destino) -> 
+  CurlTests.obj : error LNK2019: símbolo externo _strerror_r sin resolver al que se hace referencia en la función _main [C:\Users\Ivan\labs\c++\C-ChatBot\build\CMakeFiles\CMakeTmp\cmTC_ff408.vcxproj]
+  C:\Users\Ivan\labs\c++\C-ChatBot\build\CMakeFiles\CMakeTmp\Debug\cmTC_ff408.exe : fatal error LNK1120: 1 externos sin resolver [C:\Users\Ivan\labs\c++\C-ChatBot\build\CMakeFiles\CMakeTmp\cmTC_ff408.vcxproj]
+
+    0 Advertencia(s)
+    2 Errores
+
+Tiempo transcurrido 00:00:00.64
+
+
+Performing Curl Test HAVE_CLOCK_GETTIME_MONOTONIC failed with the following output:
+Change Dir: C:/Users/Ivan/labs/c++/C-ChatBot/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/MSBuild/Current/Bin/MSBuild.exe cmTC_026ce.vcxproj /p:Configuration=Debug /p:Platform=win32 /p:VisualStudioVersion=16.0 /v:n && Microsoft (R) Build Engine versión 16.11.2+f32259642 para .NET Framework
+Copyright (C) Microsoft Corporation. Todos los derechos reservados.
+
+Compilación iniciada a las 31/05/2023 16:51:45.
+Proyecto "C:\Users\Ivan\labs\c++\C-ChatBot\build\CMakeFiles\CMakeTmp\cmTC_026ce.vcxproj" en nodo 1 (destinos predeterminados).
+PrepareForBuild:
+  Creando directorio "cmTC_026ce.dir\Debug\".
+  Creando directorio "C:\Users\Ivan\labs\c++\C-ChatBot\build\CMakeFiles\CMakeTmp\Debug\".
+  Creando directorio "cmTC_026ce.dir\Debug\cmTC_026ce.tlog\".
+InitializeBuildStatus:
+  Se creará "cmTC_026ce.dir\Debug\cmTC_026ce.tlog\unsuccessfulbuild" porque se especificó "AlwaysCreate".
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\VC\Tools\MSVC\14.29.30133\bin\HostX86\x86\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D HAVE_CLOCK_GETTIME_MONOTONIC /D HAVE_WINDOWS_H /D HAVE_WS2TCPIP_H /D HAVE_WINSOCK2_H /D HAVE_WINCRYPT_H /D HAVE_STDIO_H /D HAVE_SYS_STAT_H /D HAVE_SYS_TYPES_H /D HAVE_SYS_UTIME_H /D HAVE_ASSERT_H /D HAVE_ERRNO_H /D HAVE_FCNTL_H /D HAVE_IO_H /D HAVE_LOCALE_H /D HAVE_SETJMP_H /D HAVE_SIGNAL_H /D HAVE_STDBOOL_H /D HAVE_STDLIB_H /D HAVE_STRING_H /D HAVE_TIME_H /D HAVE_PROCESS_H /D HAVE_STDDEF_H /D HAVE_MALLOC_H /D HAVE_MEMORY_H /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_026ce.dir\Debug\\" /Fd"cmTC_026ce.dir\Debug\vc142.pdb" /external:W1 /Gd /TC /analyze- /errorReport:queue "C:\Users\Ivan\labs\c++\C-ChatBot\build\_deps\curl-src\CMake\CurlTests.c"
+  Compilador de optimización de C/C++ de Microsoft (R) versión 19.29.30148 para x86
+  (C) Microsoft Corporation. Todos los derechos reservados.
+  CurlTests.c
+  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D HAVE_CLOCK_GETTIME_MONOTONIC /D HAVE_WINDOWS_H /D HAVE_WS2TCPIP_H /D HAVE_WINSOCK2_H /D HAVE_WINCRYPT_H /D HAVE_STDIO_H /D HAVE_SYS_STAT_H /D HAVE_SYS_TYPES_H /D HAVE_SYS_UTIME_H /D HAVE_ASSERT_H /D HAVE_ERRNO_H /D HAVE_FCNTL_H /D HAVE_IO_H /D HAVE_LOCALE_H /D HAVE_SETJMP_H /D HAVE_SIGNAL_H /D HAVE_STDBOOL_H /D HAVE_STDLIB_H /D HAVE_STRING_H /D HAVE_TIME_H /D HAVE_PROCESS_H /D HAVE_STDDEF_H /D HAVE_MALLOC_H /D HAVE_MEMORY_H /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_026ce.dir\Debug\\" /Fd"cmTC_026ce.dir\Debug\vc142.pdb" /external:W1 /Gd /TC /analyze- /errorReport:queue "C:\Users\Ivan\labs\c++\C-ChatBot\build\_deps\curl-src\CMake\CurlTests.c"
+C:\Users\Ivan\labs\c++\C-ChatBot\build\_deps\curl-src\CMake\CurlTests.c(460,32): error C2065: 'CLOCK_MONOTONIC': identificador no declarado [C:\Users\Ivan\labs\c++\C-ChatBot\build\CMakeFiles\CMakeTmp\cmTC_026ce.vcxproj]
+Compilación del proyecto terminada "C:\Users\Ivan\labs\c++\C-ChatBot\build\CMakeFiles\CMakeTmp\cmTC_026ce.vcxproj" (destinos predeterminados) -- ERROR.
+
+ERROR al compilar.
+
+"C:\Users\Ivan\labs\c++\C-ChatBot\build\CMakeFiles\CMakeTmp\cmTC_026ce.vcxproj" (destino predeterminado) (1) ->
+(ClCompile destino) -> 
+  C:\Users\Ivan\labs\c++\C-ChatBot\build\_deps\curl-src\CMake\CurlTests.c(460,32): error C2065: 'CLOCK_MONOTONIC': identificador no declarado [C:\Users\Ivan\labs\c++\C-ChatBot\build\CMakeFiles\CMakeTmp\cmTC_026ce.vcxproj]
+
+    0 Advertencia(s)
+    1 Errores
+
+Tiempo transcurrido 00:00:00.47
+
+
+Performing Curl Test HAVE_BUILTIN_AVAILABLE failed with the following output:
+Change Dir: C:/Users/Ivan/labs/c++/C-ChatBot/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/MSBuild/Current/Bin/MSBuild.exe cmTC_df700.vcxproj /p:Configuration=Debug /p:Platform=win32 /p:VisualStudioVersion=16.0 /v:n && Microsoft (R) Build Engine versión 16.11.2+f32259642 para .NET Framework
+Copyright (C) Microsoft Corporation. Todos los derechos reservados.
+
+Compilación iniciada a las 31/05/2023 16:51:46.
+Proyecto "C:\Users\Ivan\labs\c++\C-ChatBot\build\CMakeFiles\CMakeTmp\cmTC_df700.vcxproj" en nodo 1 (destinos predeterminados).
+PrepareForBuild:
+  Creando directorio "cmTC_df700.dir\Debug\".
+  Creando directorio "C:\Users\Ivan\labs\c++\C-ChatBot\build\CMakeFiles\CMakeTmp\Debug\".
+  Creando directorio "cmTC_df700.dir\Debug\cmTC_df700.tlog\".
+InitializeBuildStatus:
+  Se creará "cmTC_df700.dir\Debug\cmTC_df700.tlog\unsuccessfulbuild" porque se especificó "AlwaysCreate".
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\VC\Tools\MSVC\14.29.30133\bin\HostX86\x86\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D HAVE_BUILTIN_AVAILABLE /D HAVE_WINDOWS_H /D HAVE_WS2TCPIP_H /D HAVE_WINSOCK2_H /D HAVE_WINCRYPT_H /D HAVE_STDIO_H /D HAVE_SYS_STAT_H /D HAVE_SYS_TYPES_H /D HAVE_SYS_UTIME_H /D HAVE_ASSERT_H /D HAVE_ERRNO_H /D HAVE_FCNTL_H /D HAVE_IO_H /D HAVE_LOCALE_H /D HAVE_SETJMP_H /D HAVE_SIGNAL_H /D HAVE_STDBOOL_H /D HAVE_STDLIB_H /D HAVE_STRING_H /D HAVE_TIME_H /D HAVE_PROCESS_H /D HAVE_STDDEF_H /D HAVE_MALLOC_H /D HAVE_MEMORY_H /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_df700.dir\Debug\\" /Fd"cmTC_df700.dir\Debug\vc142.pdb" /external:W1 /Gd /TC /analyze- /errorReport:queue "C:\Users\Ivan\labs\c++\C-ChatBot\build\_deps\curl-src\CMake\CurlTests.c"
+  Compilador de optimización de C/C++ de Microsoft (R) versión 19.29.30148 para x86
+  (C) Microsoft Corporation. Todos los derechos reservados.
+  CurlTests.c
+  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D HAVE_BUILTIN_AVAILABLE /D HAVE_WINDOWS_H /D HAVE_WS2TCPIP_H /D HAVE_WINSOCK2_H /D HAVE_WINCRYPT_H /D HAVE_STDIO_H /D HAVE_SYS_STAT_H /D HAVE_SYS_TYPES_H /D HAVE_SYS_UTIME_H /D HAVE_ASSERT_H /D HAVE_ERRNO_H /D HAVE_FCNTL_H /D HAVE_IO_H /D HAVE_LOCALE_H /D HAVE_SETJMP_H /D HAVE_SIGNAL_H /D HAVE_STDBOOL_H /D HAVE_STDLIB_H /D HAVE_STRING_H /D HAVE_TIME_H /D HAVE_PROCESS_H /D HAVE_STDDEF_H /D HAVE_MALLOC_H /D HAVE_MEMORY_H /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_df700.dir\Debug\\" /Fd"cmTC_df700.dir\Debug\vc142.pdb" /external:W1 /Gd /TC /analyze- /errorReport:queue "C:\Users\Ivan\labs\c++\C-ChatBot\build\_deps\curl-src\CMake\CurlTests.c"
+C:\Users\Ivan\labs\c++\C-ChatBot\build\_deps\curl-src\CMake\CurlTests.c(467,32): error C2065: 'macOS': identificador no declarado [C:\Users\Ivan\labs\c++\C-ChatBot\build\CMakeFiles\CMakeTmp\cmTC_df700.vcxproj]
+C:\Users\Ivan\labs\c++\C-ChatBot\build\_deps\curl-src\CMake\CurlTests.c(467,32): error C2143: error de sintaxis: falta ')' delante de 'constante' [C:\Users\Ivan\labs\c++\C-ChatBot\build\CMakeFiles\CMakeTmp\cmTC_df700.vcxproj]
+C:\Users\Ivan\labs\c++\C-ChatBot\build\_deps\curl-src\CMake\CurlTests.c(467,40): error C2059: error de sintaxis: ')' [C:\Users\Ivan\labs\c++\C-ChatBot\build\CMakeFiles\CMakeTmp\cmTC_df700.vcxproj]
+C:\Users\Ivan\labs\c++\C-ChatBot\build\_deps\curl-src\CMake\CurlTests.c(467,41): error C2059: error de sintaxis: ')' [C:\Users\Ivan\labs\c++\C-ChatBot\build\CMakeFiles\CMakeTmp\cmTC_df700.vcxproj]
+Compilación del proyecto terminada "C:\Users\Ivan\labs\c++\C-ChatBot\build\CMakeFiles\CMakeTmp\cmTC_df700.vcxproj" (destinos predeterminados) -- ERROR.
+
+ERROR al compilar.
+
+"C:\Users\Ivan\labs\c++\C-ChatBot\build\CMakeFiles\CMakeTmp\cmTC_df700.vcxproj" (destino predeterminado) (1) ->
+(ClCompile destino) -> 
+  C:\Users\Ivan\labs\c++\C-ChatBot\build\_deps\curl-src\CMake\CurlTests.c(467,32): error C2065: 'macOS': identificador no declarado [C:\Users\Ivan\labs\c++\C-ChatBot\build\CMakeFiles\CMakeTmp\cmTC_df700.vcxproj]
+  C:\Users\Ivan\labs\c++\C-ChatBot\build\_deps\curl-src\CMake\CurlTests.c(467,32): error C2143: error de sintaxis: falta ')' delante de 'constante' [C:\Users\Ivan\labs\c++\C-ChatBot\build\CMakeFiles\CMakeTmp\cmTC_df700.vcxproj]
+  C:\Users\Ivan\labs\c++\C-ChatBot\build\_deps\curl-src\CMake\CurlTests.c(467,40): error C2059: error de sintaxis: ')' [C:\Users\Ivan\labs\c++\C-ChatBot\build\CMakeFiles\CMakeTmp\cmTC_df700.vcxproj]
+  C:\Users\Ivan\labs\c++\C-ChatBot\build\_deps\curl-src\CMake\CurlTests.c(467,41): error C2059: error de sintaxis: ')' [C:\Users\Ivan\labs\c++\C-ChatBot\build\CMakeFiles\CMakeTmp\cmTC_df700.vcxproj]
+
+    0 Advertencia(s)
+    4 Errores
+
+Tiempo transcurrido 00:00:00.51
+
+

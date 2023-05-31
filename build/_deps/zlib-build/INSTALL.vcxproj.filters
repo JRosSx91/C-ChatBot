@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Ivan\labs\c++\C-ChatBot\build\CMakeFiles\a27d437e761163c57859c6359c1fa2a4\INSTALL_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{B0D0EC03-29CF-3D20-9987-7F25AD2D4B9F}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

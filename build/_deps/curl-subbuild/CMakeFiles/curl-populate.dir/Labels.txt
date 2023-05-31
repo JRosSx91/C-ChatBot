@@ -1,0 +1,14 @@
+# Target labels
+ curl-populate
+# Source files and their labels
+C:/Users/Ivan/labs/c++/C-ChatBot/build/_deps/curl-subbuild/CMakeFiles/curl-populate
+C:/Users/Ivan/labs/c++/C-ChatBot/build/_deps/curl-subbuild/CMakeFiles/ed71f847c8e088fa1c0af758d20a1e7c/curl-populate.rule
+C:/Users/Ivan/labs/c++/C-ChatBot/build/_deps/curl-subbuild/CMakeFiles/c3f14d18e5789743a553fa44957ce241/curl-populate-complete.rule
+C:/Users/Ivan/labs/c++/C-ChatBot/build/_deps/curl-subbuild/CMakeFiles/e8961883753770dda7d51033b2398b03/curl-populate-build.rule
+C:/Users/Ivan/labs/c++/C-ChatBot/build/_deps/curl-subbuild/CMakeFiles/e8961883753770dda7d51033b2398b03/curl-populate-configure.rule
+C:/Users/Ivan/labs/c++/C-ChatBot/build/_deps/curl-subbuild/CMakeFiles/e8961883753770dda7d51033b2398b03/curl-populate-download.rule
+C:/Users/Ivan/labs/c++/C-ChatBot/build/_deps/curl-subbuild/CMakeFiles/e8961883753770dda7d51033b2398b03/curl-populate-install.rule
+C:/Users/Ivan/labs/c++/C-ChatBot/build/_deps/curl-subbuild/CMakeFiles/e8961883753770dda7d51033b2398b03/curl-populate-mkdir.rule
+C:/Users/Ivan/labs/c++/C-ChatBot/build/_deps/curl-subbuild/CMakeFiles/e8961883753770dda7d51033b2398b03/curl-populate-patch.rule
+C:/Users/Ivan/labs/c++/C-ChatBot/build/_deps/curl-subbuild/CMakeFiles/e8961883753770dda7d51033b2398b03/curl-populate-test.rule
+C:/Users/Ivan/labs/c++/C-ChatBot/build/_deps/curl-subbuild/CMakeFiles/e8961883753770dda7d51033b2398b03/curl-populate-update.rule

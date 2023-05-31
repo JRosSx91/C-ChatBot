@@ -1,0 +1,14 @@
+# Target labels
+ zlib-populate
+# Source files and their labels
+C:/Users/Ivan/labs/c++/C-ChatBot/build/_deps/zlib-subbuild/CMakeFiles/zlib-populate
+C:/Users/Ivan/labs/c++/C-ChatBot/build/_deps/zlib-subbuild/CMakeFiles/10a782bf5961699c65750323f96ea349/zlib-populate.rule
+C:/Users/Ivan/labs/c++/C-ChatBot/build/_deps/zlib-subbuild/CMakeFiles/6034eee4cd8d8cafdae296b6ac239ed2/zlib-populate-complete.rule
+C:/Users/Ivan/labs/c++/C-ChatBot/build/_deps/zlib-subbuild/CMakeFiles/bc816128bbab81bb468f2d9705cde41e/zlib-populate-build.rule
+C:/Users/Ivan/labs/c++/C-ChatBot/build/_deps/zlib-subbuild/CMakeFiles/bc816128bbab81bb468f2d9705cde41e/zlib-populate-configure.rule
+C:/Users/Ivan/labs/c++/C-ChatBot/build/_deps/zlib-subbuild/CMakeFiles/bc816128bbab81bb468f2d9705cde41e/zlib-populate-download.rule
+C:/Users/Ivan/labs/c++/C-ChatBot/build/_deps/zlib-subbuild/CMakeFiles/bc816128bbab81bb468f2d9705cde41e/zlib-populate-install.rule
+C:/Users/Ivan/labs/c++/C-ChatBot/build/_deps/zlib-subbuild/CMakeFiles/bc816128bbab81bb468f2d9705cde41e/zlib-populate-mkdir.rule
+C:/Users/Ivan/labs/c++/C-ChatBot/build/_deps/zlib-subbuild/CMakeFiles/bc816128bbab81bb468f2d9705cde41e/zlib-populate-patch.rule
+C:/Users/Ivan/labs/c++/C-ChatBot/build/_deps/zlib-subbuild/CMakeFiles/bc816128bbab81bb468f2d9705cde41e/zlib-populate-test.rule
+C:/Users/Ivan/labs/c++/C-ChatBot/build/_deps/zlib-subbuild/CMakeFiles/bc816128bbab81bb468f2d9705cde41e/zlib-populate-update.rule
